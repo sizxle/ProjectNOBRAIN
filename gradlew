@@ -163,7 +163,7 @@ fi
 # by default we should be in the correct project dir, but when run from Finder on Mac, the cwd is wrong
 #if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
   #cd "$(dirname "$0")"
-3#fi
+#fi
 
 # Split up the JVM_OPTS And GRADLE_OPTS values into an array, following the shell quoting and substitution rules
 function splitJvmOpts() {
